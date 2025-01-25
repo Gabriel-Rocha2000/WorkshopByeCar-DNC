@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byecar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    
+    
+    
+</head>
+<body>
+
+    <header>
+        <img src="./asserts/logo-dnc.png" alt="">
+        <h1>Byecar</h1>
+    </header>
+        
+    <main>
+        <section>
+            <!--LEFT CONTENT--> 
+         <div class="left-content">
+            <h2> Ter <b> uma moto</b> por assinatura nunca foi tão fácil</h2>
+            <img src="./asserts/left-img.png" alt="girl in a motocicle">
+         </div> 
+
+         <!--right-content-->
+         <div class="right-content">
+         <h2>Conheça nossas <span>motos</span>!</h2>
+         
+         <div class="carousel">
+
+            <button type="button" onclick="slide(-1)">
+                 <img src="./asserts/left-arrow.png" alt="left-arrow">
+            </button>
+            <ul class="carousel-cards">
+                <li id="card">
+                    <h2>Scooter Elétrica Voltz EV1 </h2>
+                    <img src="./asserts/img-car-1.png" alt="Scooter Elétrica Voltz EV1">
+                    <div class="card-label">
+                        <h1>A partir de</h1>
+                        <span>R$ 619,90</span>
+                        <h3>Plano de 30 meses</h3>
+                    </div>
+
+                </li>
+
+                <li>
+                    <h2>Honda CB500x </h2>
+                    <img src="./asserts/img-car-2.png" alt="Honda CB500x">
+                    <div class="card-label">
+                        <h1>A partir de</h1>
+                        <span>R$ 890,90</span>
+                        <h3>Plano de 12 meses</h3>
+                    </div>
+                </li>
+
+            </ul>
+            <button type="button" onclick="slide(+1)">
+                <img src="./asserts/rigth-arrow.png.png" alt=""rigth-arrow>
+           </button>
+
+         </div>
+
+         <button type="button" class="learn-more">Saiba mais</button>
+
+         </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
